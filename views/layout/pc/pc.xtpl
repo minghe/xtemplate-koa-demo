@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://g.alicdn.com/kissy/k/1.4.8/seed-min.js" charset="utf-8"></script>
+    {{{block ("head")}}}
+</head>
+<body>
+{{{include ("./header")}}}
+{{{block ("body")}}}
+{{{include ("./footer")}}}
+</body>
+</html>

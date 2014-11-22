@@ -1,0 +1,10 @@
+{
+    "name": "xtemplate-express-demo",
+    "description": "xtemplate on express demo",
+    "devDependencies": {
+        "koa": "^0.11.0",
+        "xtemplate": "^3.1.0",
+        "koa-router": "3.4.0",
+        "xtpl": "^3.1.0"
+    }
+}

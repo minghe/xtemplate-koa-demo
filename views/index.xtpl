@@ -1,0 +1,27 @@
+{{extend ("./layout/pc/pc")}}
+
+{{#block ("head")}}
+    <style>
+        header{
+            background-color: #999113;
+            color: #ffffff;
+            padding: 20px;
+        }
+        footer{
+            background-color: #00334d;
+            position: fixed;
+            bottom: 0;
+            padding: 20px;
+            color: #ffffff;
+            width: 100%;
+        }
+        p{
+            line-height: 24px;
+        }
+    </style>
+{{/block}}
+
+{{#block ("body")}}
+    <p>这是正文</p>
+    {{{include ("./mod/demo")}}}
+{{/block}}
